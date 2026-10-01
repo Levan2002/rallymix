@@ -1,0 +1,23 @@
+:root{--court:#00807A;--court2:#16B8AE;--ink:#0F151B;--soft:#56626C;--chalk:#F1F4F0;--night:#0B1620;--coral:#E8443A;--line:#D5DED8}
+*{box-sizing:border-box}
+body{margin:0;font:17px/1.55 -apple-system,BlinkMacSystemFont,"SF Pro Text",Inter,system-ui,sans-serif;color:var(--ink);background:var(--chalk)}
+a{color:var(--court)}
+.wrap{max-width:820px;margin:0 auto;padding:0 20px}
+.stage{background:var(--night);color:#fff;padding:44px 0 36px;position:relative;overflow:hidden}
+.stage:after{content:"";position:absolute;inset:-40% -10% auto auto;width:520px;height:520px;background:radial-gradient(circle,rgba(22,184,174,.45),transparent 65%)}
+.head{display:flex;gap:18px;align-items:center;position:relative;z-index:1}
+.head img{width:84px;height:84px;border-radius:20px}
+.eyebrow{font:700 13px/1 -apple-system,system-ui;letter-spacing:.14em;text-transform:uppercase;color:var(--court2)}
+h1{font:italic 900 46px/1.02 -apple-system,"SF Pro Display",system-ui;letter-spacing:-.01em;margin:.12em 0}
+.lead{position:relative;z-index:1;color:rgba(255,255,255,.82);max-width:640px}
+h2{font:italic 800 26px/1.15 -apple-system,"SF Pro Display",system-ui;margin:1.6em 0 .4em}
+.card{background:#fff;border:1px solid var(--line);border-radius:20px;padding:18px 20px;margin:14px 0}
+.tag{display:inline-block;background:var(--night);color:#fff;font:700 12px/1 -apple-system,system-ui;letter-spacing:.12em;text-transform:uppercase;padding:6px 12px;transform:skewX(-14deg)}
+.tag span{display:inline-block;transform:skewX(14deg)}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:12px}
+.grid .card{margin:0}
+.grid h3{margin:.2em 0 .2em;font-size:18px}
+.grid p{margin:0;color:var(--soft);font-size:15px}
+.btn{display:inline-block;background:var(--court);color:#fff;text-decoration:none;font-weight:700;padding:12px 20px;border-radius:14px;margin-top:14px;position:relative;z-index:1}
+footer{color:var(--soft);font-size:14px;text-align:center;padding:40px 0}
+dt{font-weight:700;margin-top:1em}dd{margin:.2em 0 0;color:var(--soft)}
