@@ -21,3 +21,28 @@ h2{font:italic 800 26px/1.15 -apple-system,"SF Pro Display",system-ui;margin:1.6
 .btn{display:inline-block;background:var(--court);color:#fff;text-decoration:none;font-weight:700;padding:12px 20px;border-radius:14px;margin-top:14px;position:relative;z-index:1}
 footer{color:var(--soft);font-size:14px;text-align:center;padding:40px 0}
 dt{font-weight:700;margin-top:1em}dd{margin:.2em 0 0;color:var(--soft)}
+
+/* Guides */
+.crumbs{font-size:14px;margin:0 0 14px;color:rgba(255,255,255,.78);position:relative;z-index:1}
+.crumbs a{color:#fff}
+h1.gt{font-size:34px;line-height:1.12}
+.guide h3{font-size:19px;margin:1.4em 0 .3em}
+.guide ul,.guide ol{padding-left:1.3em}
+.guide li{margin:.4em 0}
+.guide ol.steps li{margin:.7em 0}
+.guide a{overflow-wrap:anywhere}
+.cta-row{margin:18px 0 6px}
+.cta{display:inline-block;background:var(--court);color:#fff;font-weight:700;padding:11px 18px;border-radius:12px;text-decoration:none}
+.cta:hover{filter:brightness(1.08)}
+.cta-end{background:#fff;border:1px solid var(--line);border-radius:16px;padding:18px 20px;margin:32px 0 8px}
+.cta-end p{margin:0 0 6px}
+.note{border-left:4px solid var(--court);padding:2px 0 2px 14px;margin:18px 0;color:var(--soft)}
+.glist{list-style:none;padding:0;margin:14px 0}
+.glist li{margin:0 0 12px}
+.gcard{display:block;background:#fff;border:1px solid var(--line);border-radius:14px;padding:14px 18px;text-decoration:none;color:inherit}
+.gtitle{display:block;font-weight:700}
+.gsum{display:block;color:var(--soft);font-size:15px}
+.tablewrap{overflow-x:auto}
+.guide table{border-collapse:collapse;width:100%;font-size:16px}
+.guide th,.guide td{border-bottom:1px solid var(--line);padding:6px 10px 6px 0;text-align:left;vertical-align:top}
+@media (max-width:520px){h1.gt{font-size:28px}}
